@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+pybuilder = "==0.11.17"
+black = "*"
+isort = "*"
+mypy = "*"
+flake8 = "*"
+autoflake = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
